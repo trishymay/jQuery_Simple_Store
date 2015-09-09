@@ -1,0 +1,146 @@
+body {
+  background: rgb(37, 99, 16);
+}
+
+h1 {
+  text-align: center;
+  background-color: #783D2A;
+  margin: 0;
+  padding-top: 2%;
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 300%;
+}
+
+section {
+  margin-left: 10%;
+}
+
+h3 {
+  text-align: center;
+  background-color: #B39D96;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-family: 'La Belle Aurore', cursive;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  width: 90%;
+  margin: 5%;
+}
+
+div {
+  display: inline-block;
+  width: 25%;
+  height: auto;
+  border: 1px solid black;
+  margin: 1%;
+  background-color: #B39D96;
+}
+
+p {
+  margin: 5%;
+  font-family: 'La Belle Aurore', cursive;
+  display: inline;
+}
+
+th, td {
+  border: 1px solid black;
+  text-align: center;
+  font-family: 'Almendra:700italic', cursive;
+}
+
+td {
+  font-family: 'Almendra:400italic', cursive;
+}
+
+table {
+  background-color: white;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+button {
+  border-width: 4px;
+  font-family: 'Almendra:400italic', cursive;
+  background-color: #324F17;
+  color: white;
+  font-size: 13px;
+}
+
+.bottom {
+  text-align: center;
+  background: rgb(37, 99, 16);
+  background: rgba(37, 99, 16, 0);
+  border: none;
+}
+
+.large {
+  margin: 0;
+  display: block;
+  background: rgb(37, 99, 16);
+}
+
+.large-size {
+  width: 100%;
+}
+
+.full {
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.inCart {
+  background-color: #A2BF9B;
+}
+
+.confirm {
+  text-align: center;
+  margin-left: 10%;
+  padding-top: 5%;
+  font-size: 26px;
+}
+
+.description {
+  display: block;
+}
+
+.add, .remove {
+  float: right;
+  margin: 5%;
+  margin-top: 0;
+}
+
+.priceSmall, .name {
+  display: block;
+  text-align: center;
+}
+
+.small {
+  width: 10%;
+}
+
+.total, .purchase, .continue {
+  display: block;
+  text-align: center;
+  margin: 5%;
+}
+
+.shop {
+  margin-left: 40%;
+}
+
+.confirmOrder {
+  width: auto;
+  background-color: #CFDBC5;
+}
+
+.hidden {
+  display: none;
+}
